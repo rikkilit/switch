@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 	case 1: // если count = 1
 	{
 
-		cout <<a<<endl ; // выполнить сложение
+		cout <<a<<"+"<<b<<"="<<summ(a,b)<<endl ; // выполнить сложение
 		break;
 	}
 	case 2: // если count = 2
