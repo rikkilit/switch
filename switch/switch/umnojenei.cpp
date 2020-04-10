@@ -1,5 +1,5 @@
 #include "pch.h"
-#include <iostream>
+#include "umnojenie.h"
 
 
 int umn(int a, int b)
