@@ -5,6 +5,8 @@
 #include <iostream>
 #include "summ.h"
 #include "delenie.h"
+#include "umnojenie.h"
+#include "minus.h"
 
 using namespace std;
 
@@ -29,12 +31,12 @@ int main(int argc, char* argv[])
 	}
 	case 2: // если count = 2
 	{
-		cout << "Функция в разработке"<<endl; // выполнить вычитание
+		cout << a << "-" << b << "=" << min(a, b) << endl; // выполнить вычитание
 		break;
 	}
 	case 3: // если count = 3
 	{
-		cout << "Функция в разработке"<<endl; // выполнить умножение
+		cout << a << "*" << b << "=" << umn(a, b) << endl; // выполнить умножение
 		break;
 	}
 	case 4: // если count = 4
