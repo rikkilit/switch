@@ -3,6 +3,7 @@
 
 #include "pch.h"
 #include <iostream>
+#include "summ.h"
 
 using namespace std;
 
@@ -21,7 +22,8 @@ int main(int argc, char* argv[])
 	{
 	case 1: // если count = 1
 	{
-		cout << "Функция в разработке"<<endl ; // выполнить сложение
+
+		cout <<a<<endl ; // выполнить сложение
 		break;
 	}
 	case 2: // если count = 2
