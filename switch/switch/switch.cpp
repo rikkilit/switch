@@ -4,6 +4,7 @@
 #include "pch.h"
 #include <iostream>
 #include "summ.h"
+#include "delenie.h"
 
 using namespace std;
 
@@ -38,7 +39,7 @@ int main(int argc, char* argv[])
 	}
 	case 4: // если count = 4
 	{
-		cout << "Функция в разработке"<<endl; // выполнить деление
+		cout << a << "/" << b << "=" << del(a, b) << endl; // выполнить деление
 		break;
 	}
 	default: // если count равно любому другому значению

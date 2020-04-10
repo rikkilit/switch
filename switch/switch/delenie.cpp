@@ -1,5 +1,5 @@
 #include "pch.h"
-#include <iostream>
+#include "delenie.h"
 
 
 int del(int a, int b)
