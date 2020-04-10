@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="delenie.cpp" />
+    <ClCompile Include="minus.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -156,11 +157,14 @@
     </ClCompile>
     <ClCompile Include="summ.cpp" />
     <ClCompile Include="switch.cpp" />
+    <ClCompile Include="umnojenei.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="delenie.h" />
+    <ClInclude Include="minus.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="summ.h" />
+    <ClInclude Include="umnojenie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
